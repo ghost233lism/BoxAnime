@@ -1,0 +1,6933 @@
+{
+  "generatedAt": "2026-08-31T10:06:21.576Z",
+  "algorithmVersion": "extreme-point-1.0.0",
+  "container": {
+    "id": "40HQ",
+    "name": "40HQ 高柜",
+    "lengthMm": 12032,
+    "widthMm": 2352,
+    "heightMm": 2698,
+    "maxPayloadKg": 26500
+  },
+  "cargo": [
+    {
+      "id": "PAL-A",
+      "name": "高密度配件托盘",
+      "lengthMm": 1000,
+      "widthMm": 800,
+      "heightMm": 900,
+      "weightKg": 1300,
+      "quantity": 8,
+      "stopOrder": 3,
+      "canRotate": true,
+      "keepUpright": true,
+      "stackable": true,
+      "maxTopLoadKg": 1000
+    },
+    {
+      "id": "BOX-B",
+      "name": "轻型周转箱",
+      "lengthMm": 1600,
+      "widthMm": 1100,
+      "heightMm": 1400,
+      "weightKg": 150,
+      "quantity": 6,
+      "stopOrder": 1,
+      "canRotate": true,
+      "keepUpright": true,
+      "stackable": true,
+      "maxTopLoadKg": 500
+    },
+    {
+      "id": "RACK-C",
+      "name": "立式设备箱",
+      "lengthMm": 1000,
+      "widthMm": 1000,
+      "heightMm": 2000,
+      "weightKg": 220,
+      "quantity": 5,
+      "stopOrder": 2,
+      "canRotate": true,
+      "keepUpright": true,
+      "stackable": false,
+      "maxTopLoadKg": 0
+    },
+    {
+      "id": "DENSE-D",
+      "name": "工业电机托盘",
+      "lengthMm": 1000,
+      "widthMm": 800,
+      "heightMm": 700,
+      "weightKg": 1800,
+      "quantity": 4,
+      "stopOrder": 3,
+      "canRotate": true,
+      "keepUpright": true,
+      "stackable": true,
+      "maxTopLoadKg": 1400
+    },
+    {
+      "id": "CASE-E",
+      "name": "精密零件箱",
+      "lengthMm": 800,
+      "widthMm": 600,
+      "heightMm": 700,
+      "weightKg": 55,
+      "quantity": 10,
+      "stopOrder": 1,
+      "canRotate": true,
+      "keepUpright": true,
+      "stackable": true,
+      "maxTopLoadKg": 250
+    },
+    {
+      "id": "FRAME-F",
+      "name": "大型框架包装",
+      "lengthMm": 2400,
+      "widthMm": 1100,
+      "heightMm": 1600,
+      "weightKg": 350,
+      "quantity": 5,
+      "stopOrder": 2,
+      "canRotate": true,
+      "keepUpright": true,
+      "stackable": true,
+      "maxTopLoadKg": 350
+    },
+    {
+      "id": "PAL-G",
+      "name": "中型混装托盘",
+      "lengthMm": 1200,
+      "widthMm": 1000,
+      "heightMm": 1300,
+      "weightKg": 520,
+      "quantity": 6,
+      "stopOrder": 2,
+      "canRotate": true,
+      "keepUpright": true,
+      "stackable": true,
+      "maxTopLoadKg": 600
+    },
+    {
+      "id": "MACHINE-H",
+      "name": "重型机组箱",
+      "lengthMm": 1200,
+      "widthMm": 1000,
+      "heightMm": 900,
+      "weightKg": 2500,
+      "quantity": 3,
+      "stopOrder": 3,
+      "canRotate": true,
+      "keepUpright": true,
+      "stackable": true,
+      "maxTopLoadKg": 1500
+    },
+    {
+      "id": "BOX-I",
+      "name": "文件与备件箱",
+      "lengthMm": 600,
+      "widthMm": 400,
+      "heightMm": 600,
+      "weightKg": 35,
+      "quantity": 3,
+      "stopOrder": 1,
+      "canRotate": true,
+      "keepUpright": false,
+      "stackable": true,
+      "maxTopLoadKg": 120
+    }
+  ],
+  "solutions": {
+    "volume": {
+      "strategy": "volume",
+      "placements": [
+        {
+          "cargoInstanceId": "FRAME-F-01",
+          "sourceId": "FRAME-F",
+          "name": "大型框架包装",
+          "positionMm": [
+            0,
+            0,
+            0
+          ],
+          "sizeMm": [
+            2400,
+            1100,
+            1600
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 350,
+          "stopOrder": 2,
+          "stackable": true,
+          "maxTopLoadKg": 350,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 0
+        },
+        {
+          "cargoInstanceId": "FRAME-F-02",
+          "sourceId": "FRAME-F",
+          "name": "大型框架包装",
+          "positionMm": [
+            2400,
+            0,
+            0
+          ],
+          "sizeMm": [
+            2400,
+            1100,
+            1600
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 350,
+          "stopOrder": 2,
+          "stackable": true,
+          "maxTopLoadKg": 350,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 1
+        },
+        {
+          "cargoInstanceId": "FRAME-F-03",
+          "sourceId": "FRAME-F",
+          "name": "大型框架包装",
+          "positionMm": [
+            4800,
+            0,
+            0
+          ],
+          "sizeMm": [
+            2400,
+            1100,
+            1600
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 350,
+          "stopOrder": 2,
+          "stackable": true,
+          "maxTopLoadKg": 350,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 2
+        },
+        {
+          "cargoInstanceId": "FRAME-F-04",
+          "sourceId": "FRAME-F",
+          "name": "大型框架包装",
+          "positionMm": [
+            4800,
+            1100,
+            0
+          ],
+          "sizeMm": [
+            2400,
+            1100,
+            1600
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 350,
+          "stopOrder": 2,
+          "stackable": true,
+          "maxTopLoadKg": 350,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 3
+        },
+        {
+          "cargoInstanceId": "FRAME-F-05",
+          "sourceId": "FRAME-F",
+          "name": "大型框架包装",
+          "positionMm": [
+            2400,
+            1100,
+            0
+          ],
+          "sizeMm": [
+            2400,
+            1100,
+            1600
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 350,
+          "stopOrder": 2,
+          "stackable": true,
+          "maxTopLoadKg": 350,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 4
+        },
+        {
+          "cargoInstanceId": "BOX-B-01",
+          "sourceId": "BOX-B",
+          "name": "轻型周转箱",
+          "positionMm": [
+            7200,
+            1100,
+            0
+          ],
+          "sizeMm": [
+            1600,
+            1100,
+            1400
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 150,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 500,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 5
+        },
+        {
+          "cargoInstanceId": "BOX-B-02",
+          "sourceId": "BOX-B",
+          "name": "轻型周转箱",
+          "positionMm": [
+            8800,
+            1100,
+            0
+          ],
+          "sizeMm": [
+            1600,
+            1100,
+            1400
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 150,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 500,
+          "supportRatio": 1,
+          "topLoadKg": 220,
+          "step": 6
+        },
+        {
+          "cargoInstanceId": "BOX-B-03",
+          "sourceId": "BOX-B",
+          "name": "轻型周转箱",
+          "positionMm": [
+            10400,
+            1100,
+            0
+          ],
+          "sizeMm": [
+            1600,
+            1100,
+            1400
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 150,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 500,
+          "supportRatio": 1,
+          "topLoadKg": 220,
+          "step": 7
+        },
+        {
+          "cargoInstanceId": "BOX-B-04",
+          "sourceId": "BOX-B",
+          "name": "轻型周转箱",
+          "positionMm": [
+            7200,
+            0,
+            0
+          ],
+          "sizeMm": [
+            1600,
+            1100,
+            1400
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 150,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 500,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 8
+        },
+        {
+          "cargoInstanceId": "BOX-B-05",
+          "sourceId": "BOX-B",
+          "name": "轻型周转箱",
+          "positionMm": [
+            8800,
+            0,
+            0
+          ],
+          "sizeMm": [
+            1600,
+            1100,
+            1400
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 150,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 500,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 9
+        },
+        {
+          "cargoInstanceId": "BOX-B-06",
+          "sourceId": "BOX-B",
+          "name": "轻型周转箱",
+          "positionMm": [
+            10400,
+            0,
+            0
+          ],
+          "sizeMm": [
+            1600,
+            1100,
+            1400
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 150,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 500,
+          "supportRatio": 1,
+          "topLoadKg": 145,
+          "step": 10
+        },
+        {
+          "cargoInstanceId": "RACK-C-01",
+          "sourceId": "RACK-C",
+          "name": "立式设备箱",
+          "positionMm": [
+            0,
+            1100,
+            0
+          ],
+          "sizeMm": [
+            1000,
+            1000,
+            2000
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 220,
+          "stopOrder": 2,
+          "stackable": false,
+          "maxTopLoadKg": 0,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 11
+        },
+        {
+          "cargoInstanceId": "RACK-C-02",
+          "sourceId": "RACK-C",
+          "name": "立式设备箱",
+          "positionMm": [
+            1000,
+            1100,
+            0
+          ],
+          "sizeMm": [
+            1000,
+            1000,
+            2000
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 220,
+          "stopOrder": 2,
+          "stackable": false,
+          "maxTopLoadKg": 0,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 12
+        },
+        {
+          "cargoInstanceId": "CASE-E-01",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            10400,
+            1100,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 13
+        },
+        {
+          "cargoInstanceId": "CASE-E-02",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            11200,
+            1100,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 14
+        },
+        {
+          "cargoInstanceId": "CASE-E-03",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            11200,
+            1700,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 0.8333333333333334,
+          "topLoadKg": 0,
+          "step": 15
+        },
+        {
+          "cargoInstanceId": "CASE-E-04",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            10400,
+            1700,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 0.8333333333333334,
+          "topLoadKg": 0,
+          "step": 16
+        },
+        {
+          "cargoInstanceId": "CASE-E-05",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            10400,
+            0,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 17
+        },
+        {
+          "cargoInstanceId": "CASE-E-06",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            11200,
+            0,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 18
+        },
+        {
+          "cargoInstanceId": "CASE-E-07",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            8800,
+            1100,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 19
+        },
+        {
+          "cargoInstanceId": "CASE-E-08",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            9600,
+            1100,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 20
+        },
+        {
+          "cargoInstanceId": "CASE-E-09",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            9600,
+            1700,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 0.8333333333333334,
+          "topLoadKg": 0,
+          "step": 21
+        },
+        {
+          "cargoInstanceId": "CASE-E-10",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            8800,
+            1700,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 0.8333333333333334,
+          "topLoadKg": 0,
+          "step": 22
+        },
+        {
+          "cargoInstanceId": "BOX-I-01",
+          "sourceId": "BOX-I",
+          "name": "文件与备件箱",
+          "positionMm": [
+            11200,
+            600,
+            1400
+          ],
+          "sizeMm": [
+            600,
+            400,
+            600
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 35,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 120,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 23
+        },
+        {
+          "cargoInstanceId": "BOX-I-02",
+          "sourceId": "BOX-I",
+          "name": "文件与备件箱",
+          "positionMm": [
+            2000,
+            1100,
+            0
+          ],
+          "sizeMm": [
+            400,
+            600,
+            600
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 35,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 120,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 24
+        },
+        {
+          "cargoInstanceId": "BOX-I-03",
+          "sourceId": "BOX-I",
+          "name": "文件与备件箱",
+          "positionMm": [
+            2000,
+            1700,
+            0
+          ],
+          "sizeMm": [
+            400,
+            600,
+            600
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 35,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 120,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 25
+        }
+      ],
+      "unloadedCargoIds": [
+        "PAL-A-01",
+        "PAL-A-02",
+        "PAL-A-03",
+        "PAL-A-04",
+        "PAL-A-05",
+        "PAL-A-06",
+        "PAL-A-07",
+        "PAL-A-08",
+        "RACK-C-03",
+        "RACK-C-04",
+        "RACK-C-05",
+        "DENSE-D-01",
+        "DENSE-D-02",
+        "DENSE-D-03",
+        "DENSE-D-04",
+        "PAL-G-01",
+        "PAL-G-02",
+        "PAL-G-03",
+        "PAL-G-04",
+        "PAL-G-05",
+        "PAL-G-06",
+        "MACHINE-H-01",
+        "MACHINE-H-02",
+        "MACHINE-H-03"
+      ],
+      "metrics": {
+        "volumeUtilization": 0.5723011212907477,
+        "weightUtilization": 0.14132075471698113,
+        "loadedVolumeM3": 43.696,
+        "loadedWeightKg": 3745,
+        "centerOfGravity": [
+          6030.574098798398,
+          1162.7503337783712,
+          938.0507343124166
+        ],
+        "supportScore": 0.9743589743589743,
+        "routeScore": 0.7701386047463176,
+        "maxFloorLoadKgM2": 220,
+        "loadedCount": 26,
+        "totalCount": 50
+      },
+      "score": 0.6395653679149482,
+      "seed": 20260831,
+      "warnings": [
+        "24 件货物未装载"
+      ]
+    },
+    "weight": {
+      "strategy": "weight",
+      "placements": [
+        {
+          "cargoInstanceId": "MACHINE-H-01",
+          "sourceId": "MACHINE-H",
+          "name": "重型机组箱",
+          "positionMm": [
+            0,
+            0,
+            0
+          ],
+          "sizeMm": [
+            1000,
+            1200,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 2500,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1500,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 0
+        },
+        {
+          "cargoInstanceId": "MACHINE-H-02",
+          "sourceId": "MACHINE-H",
+          "name": "重型机组箱",
+          "positionMm": [
+            0,
+            1200,
+            0
+          ],
+          "sizeMm": [
+            1200,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 2500,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1500,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 1
+        },
+        {
+          "cargoInstanceId": "MACHINE-H-03",
+          "sourceId": "MACHINE-H",
+          "name": "重型机组箱",
+          "positionMm": [
+            1000,
+            0,
+            0
+          ],
+          "sizeMm": [
+            1000,
+            1200,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 2500,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1500,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 2
+        },
+        {
+          "cargoInstanceId": "DENSE-D-01",
+          "sourceId": "DENSE-D",
+          "name": "工业电机托盘",
+          "positionMm": [
+            1200,
+            1200,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1800,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1400,
+          "supportRatio": 1,
+          "topLoadKg": 1300,
+          "step": 3
+        },
+        {
+          "cargoInstanceId": "DENSE-D-02",
+          "sourceId": "DENSE-D",
+          "name": "工业电机托盘",
+          "positionMm": [
+            2000,
+            1200,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1800,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1400,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 4
+        },
+        {
+          "cargoInstanceId": "DENSE-D-03",
+          "sourceId": "DENSE-D",
+          "name": "工业电机托盘",
+          "positionMm": [
+            2000,
+            0,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1800,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1400,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 5
+        },
+        {
+          "cargoInstanceId": "DENSE-D-04",
+          "sourceId": "DENSE-D",
+          "name": "工业电机托盘",
+          "positionMm": [
+            2800,
+            1200,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1800,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1400,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 6
+        },
+        {
+          "cargoInstanceId": "PAL-A-01",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            2800,
+            0,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 7
+        },
+        {
+          "cargoInstanceId": "PAL-A-02",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            3600,
+            1200,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 8
+        },
+        {
+          "cargoInstanceId": "PAL-A-03",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            3600,
+            0,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 9
+        },
+        {
+          "cargoInstanceId": "PAL-A-04",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            4400,
+            1200,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 10
+        },
+        {
+          "cargoInstanceId": "PAL-A-05",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            4400,
+            0,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 11
+        },
+        {
+          "cargoInstanceId": "PAL-A-06",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            5200,
+            1200,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 12
+        },
+        {
+          "cargoInstanceId": "PAL-A-07",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            5200,
+            0,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 13
+        },
+        {
+          "cargoInstanceId": "PAL-A-08",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            1200,
+            1200,
+            700
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 14
+        },
+        {
+          "cargoInstanceId": "PAL-G-01",
+          "sourceId": "PAL-G",
+          "name": "中型混装托盘",
+          "positionMm": [
+            6000,
+            0,
+            0
+          ],
+          "sizeMm": [
+            1000,
+            1200,
+            1300
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 520,
+          "stopOrder": 2,
+          "stackable": true,
+          "maxTopLoadKg": 600,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 15
+        },
+        {
+          "cargoInstanceId": "PAL-G-02",
+          "sourceId": "PAL-G",
+          "name": "中型混装托盘",
+          "positionMm": [
+            6000,
+            1200,
+            0
+          ],
+          "sizeMm": [
+            1200,
+            1000,
+            1300
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 520,
+          "stopOrder": 2,
+          "stackable": true,
+          "maxTopLoadKg": 600,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 16
+        },
+        {
+          "cargoInstanceId": "FRAME-F-01",
+          "sourceId": "FRAME-F",
+          "name": "大型框架包装",
+          "positionMm": [
+            7000,
+            0,
+            0
+          ],
+          "sizeMm": [
+            2400,
+            1100,
+            1600
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 350,
+          "stopOrder": 2,
+          "stackable": true,
+          "maxTopLoadKg": 350,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 17
+        }
+      ],
+      "unloadedCargoIds": [
+        "BOX-B-01",
+        "BOX-B-02",
+        "BOX-B-03",
+        "BOX-B-04",
+        "BOX-B-05",
+        "BOX-B-06",
+        "RACK-C-01",
+        "RACK-C-02",
+        "RACK-C-03",
+        "RACK-C-04",
+        "RACK-C-05",
+        "CASE-E-01",
+        "CASE-E-02",
+        "CASE-E-03",
+        "CASE-E-04",
+        "CASE-E-05",
+        "CASE-E-06",
+        "CASE-E-07",
+        "CASE-E-08",
+        "CASE-E-09",
+        "CASE-E-10",
+        "FRAME-F-02",
+        "FRAME-F-03",
+        "FRAME-F-04",
+        "FRAME-F-05",
+        "PAL-G-03",
+        "PAL-G-04",
+        "PAL-G-05",
+        "PAL-G-06",
+        "BOX-I-01",
+        "BOX-I-02",
+        "BOX-I-03"
+      ],
+      "metrics": {
+        "volumeUtilization": 0.24340086136184677,
+        "weightUtilization": 0.9996226415094339,
+        "loadedVolumeM3": 18.584,
+        "loadedWeightKg": 26490,
+        "centerOfGravity": [
+          2912.1177802944508,
+          1138.486221215553,
+          469.6489241223103
+        ],
+        "supportScore": 1,
+        "routeScore": 0.773511377068558,
+        "maxFloorLoadKgM2": 3875,
+        "loadedCount": 18,
+        "totalCount": 50
+      },
+      "score": 1.057356660984472,
+      "seed": 20260831,
+      "warnings": [
+        "32 件货物未装载",
+        "整体重心偏离建议安全区"
+      ]
+    },
+    "balanced": {
+      "strategy": "balanced",
+      "placements": [
+        {
+          "cargoInstanceId": "MACHINE-H-01",
+          "sourceId": "MACHINE-H",
+          "name": "重型机组箱",
+          "positionMm": [
+            0,
+            0,
+            0
+          ],
+          "sizeMm": [
+            1000,
+            1200,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 2500,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1500,
+          "supportRatio": 1,
+          "topLoadKg": 1300,
+          "step": 0
+        },
+        {
+          "cargoInstanceId": "MACHINE-H-02",
+          "sourceId": "MACHINE-H",
+          "name": "重型机组箱",
+          "positionMm": [
+            0,
+            1200,
+            0
+          ],
+          "sizeMm": [
+            1200,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 2500,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1500,
+          "supportRatio": 1,
+          "topLoadKg": 1300,
+          "step": 1
+        },
+        {
+          "cargoInstanceId": "MACHINE-H-03",
+          "sourceId": "MACHINE-H",
+          "name": "重型机组箱",
+          "positionMm": [
+            1000,
+            0,
+            0
+          ],
+          "sizeMm": [
+            1000,
+            1200,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 2500,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1500,
+          "supportRatio": 1,
+          "topLoadKg": 1300,
+          "step": 2
+        },
+        {
+          "cargoInstanceId": "FRAME-F-01",
+          "sourceId": "FRAME-F",
+          "name": "大型框架包装",
+          "positionMm": [
+            2000,
+            0,
+            0
+          ],
+          "sizeMm": [
+            2400,
+            1100,
+            1600
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 350,
+          "stopOrder": 2,
+          "stackable": true,
+          "maxTopLoadKg": 350,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 3
+        },
+        {
+          "cargoInstanceId": "FRAME-F-02",
+          "sourceId": "FRAME-F",
+          "name": "大型框架包装",
+          "positionMm": [
+            4400,
+            0,
+            0
+          ],
+          "sizeMm": [
+            2400,
+            1100,
+            1600
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 350,
+          "stopOrder": 2,
+          "stackable": true,
+          "maxTopLoadKg": 350,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 4
+        },
+        {
+          "cargoInstanceId": "FRAME-F-03",
+          "sourceId": "FRAME-F",
+          "name": "大型框架包装",
+          "positionMm": [
+            4400,
+            1100,
+            0
+          ],
+          "sizeMm": [
+            2400,
+            1100,
+            1600
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 350,
+          "stopOrder": 2,
+          "stackable": true,
+          "maxTopLoadKg": 350,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 5
+        },
+        {
+          "cargoInstanceId": "FRAME-F-04",
+          "sourceId": "FRAME-F",
+          "name": "大型框架包装",
+          "positionMm": [
+            6800,
+            1100,
+            0
+          ],
+          "sizeMm": [
+            2400,
+            1100,
+            1600
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 350,
+          "stopOrder": 2,
+          "stackable": true,
+          "maxTopLoadKg": 350,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 6
+        },
+        {
+          "cargoInstanceId": "FRAME-F-05",
+          "sourceId": "FRAME-F",
+          "name": "大型框架包装",
+          "positionMm": [
+            6800,
+            0,
+            0
+          ],
+          "sizeMm": [
+            2400,
+            1100,
+            1600
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 350,
+          "stopOrder": 2,
+          "stackable": true,
+          "maxTopLoadKg": 350,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 7
+        },
+        {
+          "cargoInstanceId": "DENSE-D-01",
+          "sourceId": "DENSE-D",
+          "name": "工业电机托盘",
+          "positionMm": [
+            1200,
+            1200,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1800,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1400,
+          "supportRatio": 1,
+          "topLoadKg": 1300,
+          "step": 8
+        },
+        {
+          "cargoInstanceId": "DENSE-D-02",
+          "sourceId": "DENSE-D",
+          "name": "工业电机托盘",
+          "positionMm": [
+            2000,
+            1100,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1800,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1400,
+          "supportRatio": 1,
+          "topLoadKg": 1300,
+          "step": 9
+        },
+        {
+          "cargoInstanceId": "DENSE-D-03",
+          "sourceId": "DENSE-D",
+          "name": "工业电机托盘",
+          "positionMm": [
+            2800,
+            1100,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1800,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1400,
+          "supportRatio": 1,
+          "topLoadKg": 1300,
+          "step": 10
+        },
+        {
+          "cargoInstanceId": "DENSE-D-04",
+          "sourceId": "DENSE-D",
+          "name": "工业电机托盘",
+          "positionMm": [
+            3600,
+            1100,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1800,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1400,
+          "supportRatio": 1,
+          "topLoadKg": 1300,
+          "step": 11
+        },
+        {
+          "cargoInstanceId": "PAL-A-01",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            1200,
+            1200,
+            700
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 12
+        },
+        {
+          "cargoInstanceId": "PAL-A-02",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            0,
+            1200,
+            900
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 13
+        },
+        {
+          "cargoInstanceId": "PAL-A-03",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            0,
+            0,
+            900
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 14
+        },
+        {
+          "cargoInstanceId": "PAL-A-04",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            2000,
+            1100,
+            700
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 15
+        },
+        {
+          "cargoInstanceId": "PAL-A-05",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            1000,
+            0,
+            900
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 16
+        },
+        {
+          "cargoInstanceId": "PAL-A-06",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            2800,
+            1100,
+            700
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 17
+        },
+        {
+          "cargoInstanceId": "PAL-A-07",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            3600,
+            1100,
+            700
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 18
+        },
+        {
+          "cargoInstanceId": "PAL-G-01",
+          "sourceId": "PAL-G",
+          "name": "中型混装托盘",
+          "positionMm": [
+            9200,
+            1100,
+            0
+          ],
+          "sizeMm": [
+            1000,
+            1200,
+            1300
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 520,
+          "stopOrder": 2,
+          "stackable": true,
+          "maxTopLoadKg": 600,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 19
+        },
+        {
+          "cargoInstanceId": "RACK-C-01",
+          "sourceId": "RACK-C",
+          "name": "立式设备箱",
+          "positionMm": [
+            9200,
+            0,
+            0
+          ],
+          "sizeMm": [
+            1000,
+            1000,
+            2000
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 220,
+          "stopOrder": 2,
+          "stackable": false,
+          "maxTopLoadKg": 0,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 20
+        },
+        {
+          "cargoInstanceId": "BOX-B-01",
+          "sourceId": "BOX-B",
+          "name": "轻型周转箱",
+          "positionMm": [
+            10200,
+            1100,
+            0
+          ],
+          "sizeMm": [
+            1600,
+            1100,
+            1400
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 150,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 500,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 21
+        },
+        {
+          "cargoInstanceId": "CASE-E-01",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            10200,
+            0,
+            0
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 22
+        }
+      ],
+      "unloadedCargoIds": [
+        "PAL-A-08",
+        "BOX-B-02",
+        "BOX-B-03",
+        "BOX-B-04",
+        "BOX-B-05",
+        "BOX-B-06",
+        "RACK-C-02",
+        "RACK-C-03",
+        "RACK-C-04",
+        "RACK-C-05",
+        "CASE-E-02",
+        "CASE-E-03",
+        "CASE-E-04",
+        "CASE-E-05",
+        "CASE-E-06",
+        "CASE-E-07",
+        "CASE-E-08",
+        "CASE-E-09",
+        "CASE-E-10",
+        "PAL-G-02",
+        "PAL-G-03",
+        "PAL-G-04",
+        "PAL-G-05",
+        "PAL-G-06",
+        "BOX-I-01",
+        "BOX-I-02",
+        "BOX-I-03"
+      ],
+      "metrics": {
+        "volumeUtilization": 0.49769870489400436,
+        "weightUtilization": 0.999811320754717,
+        "loadedVolumeM3": 38,
+        "loadedWeightKg": 26495,
+        "centerOfGravity": [
+          2420.4944329118703,
+          1279.5055670881297,
+          725.5048122287224
+        ],
+        "supportScore": 1,
+        "routeScore": 0.8386621184088806,
+        "maxFloorLoadKgM2": 3875,
+        "loadedCount": 23,
+        "totalCount": 50
+      },
+      "score": 0.721329669247809,
+      "seed": 20260831,
+      "warnings": [
+        "27 件货物未装载",
+        "整体重心偏离建议安全区"
+      ]
+    }
+  },
+  "traces": {
+    "volume": [
+      {
+        "type": "best",
+        "strategy": "volume",
+        "iteration": 0,
+        "solution": {
+          "strategy": "volume",
+          "placements": [
+            {
+              "cargoInstanceId": "FRAME-F-01",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                0,
+                0,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 0
+            },
+            {
+              "cargoInstanceId": "FRAME-F-02",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                2400,
+                0,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 1
+            },
+            {
+              "cargoInstanceId": "FRAME-F-03",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                4800,
+                0,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 2
+            },
+            {
+              "cargoInstanceId": "FRAME-F-04",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                4800,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 3
+            },
+            {
+              "cargoInstanceId": "FRAME-F-05",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                2400,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 4
+            },
+            {
+              "cargoInstanceId": "BOX-B-01",
+              "sourceId": "BOX-B",
+              "name": "轻型周转箱",
+              "positionMm": [
+                7200,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                1600,
+                1100,
+                1400
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 150,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 500,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 5
+            },
+            {
+              "cargoInstanceId": "BOX-B-02",
+              "sourceId": "BOX-B",
+              "name": "轻型周转箱",
+              "positionMm": [
+                8800,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                1600,
+                1100,
+                1400
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 150,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 500,
+              "supportRatio": 1,
+              "topLoadKg": 220,
+              "step": 6
+            },
+            {
+              "cargoInstanceId": "BOX-B-03",
+              "sourceId": "BOX-B",
+              "name": "轻型周转箱",
+              "positionMm": [
+                10400,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                1600,
+                1100,
+                1400
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 150,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 500,
+              "supportRatio": 1,
+              "topLoadKg": 220,
+              "step": 7
+            },
+            {
+              "cargoInstanceId": "BOX-B-04",
+              "sourceId": "BOX-B",
+              "name": "轻型周转箱",
+              "positionMm": [
+                7200,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1600,
+                1100,
+                1400
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 150,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 500,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 8
+            },
+            {
+              "cargoInstanceId": "BOX-B-05",
+              "sourceId": "BOX-B",
+              "name": "轻型周转箱",
+              "positionMm": [
+                8800,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1600,
+                1100,
+                1400
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 150,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 500,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 9
+            },
+            {
+              "cargoInstanceId": "BOX-B-06",
+              "sourceId": "BOX-B",
+              "name": "轻型周转箱",
+              "positionMm": [
+                10400,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1600,
+                1100,
+                1400
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 150,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 500,
+              "supportRatio": 1,
+              "topLoadKg": 145,
+              "step": 10
+            },
+            {
+              "cargoInstanceId": "RACK-C-01",
+              "sourceId": "RACK-C",
+              "name": "立式设备箱",
+              "positionMm": [
+                0,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1000,
+                2000
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 220,
+              "stopOrder": 2,
+              "stackable": false,
+              "maxTopLoadKg": 0,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 11
+            },
+            {
+              "cargoInstanceId": "RACK-C-02",
+              "sourceId": "RACK-C",
+              "name": "立式设备箱",
+              "positionMm": [
+                1000,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1000,
+                2000
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 220,
+              "stopOrder": 2,
+              "stackable": false,
+              "maxTopLoadKg": 0,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 12
+            },
+            {
+              "cargoInstanceId": "CASE-E-01",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                10400,
+                1100,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 13
+            },
+            {
+              "cargoInstanceId": "CASE-E-02",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                11200,
+                1100,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 14
+            },
+            {
+              "cargoInstanceId": "CASE-E-03",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                11200,
+                1700,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 0.8333333333333334,
+              "topLoadKg": 0,
+              "step": 15
+            },
+            {
+              "cargoInstanceId": "CASE-E-04",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                10400,
+                1700,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 0.8333333333333334,
+              "topLoadKg": 0,
+              "step": 16
+            },
+            {
+              "cargoInstanceId": "CASE-E-05",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                10400,
+                0,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 17
+            },
+            {
+              "cargoInstanceId": "CASE-E-06",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                11200,
+                0,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 18
+            },
+            {
+              "cargoInstanceId": "CASE-E-07",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                8800,
+                1100,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 19
+            },
+            {
+              "cargoInstanceId": "CASE-E-08",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                9600,
+                1100,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 20
+            },
+            {
+              "cargoInstanceId": "CASE-E-09",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                9600,
+                1700,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 0.8333333333333334,
+              "topLoadKg": 0,
+              "step": 21
+            },
+            {
+              "cargoInstanceId": "CASE-E-10",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                8800,
+                1700,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 0.8333333333333334,
+              "topLoadKg": 0,
+              "step": 22
+            },
+            {
+              "cargoInstanceId": "BOX-I-01",
+              "sourceId": "BOX-I",
+              "name": "文件与备件箱",
+              "positionMm": [
+                11200,
+                600,
+                1400
+              ],
+              "sizeMm": [
+                600,
+                400,
+                600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 35,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 120,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 23
+            },
+            {
+              "cargoInstanceId": "BOX-I-02",
+              "sourceId": "BOX-I",
+              "name": "文件与备件箱",
+              "positionMm": [
+                2000,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                400,
+                600,
+                600
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 35,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 120,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 24
+            },
+            {
+              "cargoInstanceId": "BOX-I-03",
+              "sourceId": "BOX-I",
+              "name": "文件与备件箱",
+              "positionMm": [
+                2000,
+                1700,
+                0
+              ],
+              "sizeMm": [
+                400,
+                600,
+                600
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 35,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 120,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 25
+            }
+          ],
+          "unloadedCargoIds": [
+            "PAL-A-01",
+            "PAL-A-02",
+            "PAL-A-03",
+            "PAL-A-04",
+            "PAL-A-05",
+            "PAL-A-06",
+            "PAL-A-07",
+            "PAL-A-08",
+            "RACK-C-03",
+            "RACK-C-04",
+            "RACK-C-05",
+            "DENSE-D-01",
+            "DENSE-D-02",
+            "DENSE-D-03",
+            "DENSE-D-04",
+            "PAL-G-01",
+            "PAL-G-02",
+            "PAL-G-03",
+            "PAL-G-04",
+            "PAL-G-05",
+            "PAL-G-06",
+            "MACHINE-H-01",
+            "MACHINE-H-02",
+            "MACHINE-H-03"
+          ],
+          "metrics": {
+            "volumeUtilization": 0.5723011212907477,
+            "weightUtilization": 0.14132075471698113,
+            "loadedVolumeM3": 43.696,
+            "loadedWeightKg": 3745,
+            "centerOfGravity": [
+              6030.574098798398,
+              1162.7503337783712,
+              938.0507343124166
+            ],
+            "supportScore": 0.9743589743589743,
+            "routeScore": 0.7701386047463176,
+            "maxFloorLoadKgM2": 220,
+            "loadedCount": 26,
+            "totalCount": 50
+          },
+          "score": 0.6395653679149482,
+          "seed": 20260831,
+          "warnings": [
+            "24 件货物未装载"
+          ]
+        },
+        "elapsedMs": 0
+      },
+      {
+        "type": "scan",
+        "strategy": "volume",
+        "iteration": 6,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "CASE-E-01",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            10400,
+            1700,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 0.8333333333333334,
+          "topLoadKg": 0,
+          "step": 16
+        },
+        "elapsedMs": 132
+      },
+      {
+        "type": "scan",
+        "strategy": "volume",
+        "iteration": 12,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "CASE-E-05",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            10400,
+            1700,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 0.8333333333333334,
+          "topLoadKg": 0,
+          "step": 16
+        },
+        "elapsedMs": 264
+      },
+      {
+        "type": "scan",
+        "strategy": "volume",
+        "iteration": 18,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "CASE-E-02",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            10400,
+            1700,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 0.8333333333333334,
+          "topLoadKg": 0,
+          "step": 16
+        },
+        "elapsedMs": 396
+      },
+      {
+        "type": "scan",
+        "strategy": "volume",
+        "iteration": 24,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "CASE-E-02",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            10400,
+            1700,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 0.8333333333333334,
+          "topLoadKg": 0,
+          "step": 16
+        },
+        "elapsedMs": 528
+      },
+      {
+        "type": "scan",
+        "strategy": "volume",
+        "iteration": 30,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "CASE-E-10",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            10400,
+            1700,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 0.8333333333333334,
+          "topLoadKg": 0,
+          "step": 16
+        },
+        "elapsedMs": 660
+      },
+      {
+        "type": "scan",
+        "strategy": "volume",
+        "iteration": 36,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "CASE-E-02",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            10400,
+            1700,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 0.8333333333333334,
+          "topLoadKg": 0,
+          "step": 16
+        },
+        "elapsedMs": 792
+      },
+      {
+        "type": "scan",
+        "strategy": "volume",
+        "iteration": 42,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "CASE-E-04",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            10400,
+            1700,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 0.8333333333333334,
+          "topLoadKg": 0,
+          "step": 16
+        },
+        "elapsedMs": 924
+      },
+      {
+        "type": "scan",
+        "strategy": "volume",
+        "iteration": 48,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "CASE-E-02",
+          "sourceId": "CASE-E",
+          "name": "精密零件箱",
+          "positionMm": [
+            10400,
+            1700,
+            1400
+          ],
+          "sizeMm": [
+            800,
+            600,
+            700
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "weightKg": 55,
+          "stopOrder": 1,
+          "stackable": true,
+          "maxTopLoadKg": 250,
+          "supportRatio": 0.8333333333333334,
+          "topLoadKg": 0,
+          "step": 16
+        },
+        "elapsedMs": 1056
+      },
+      {
+        "type": "complete",
+        "strategy": "volume",
+        "solution": {
+          "strategy": "volume",
+          "placements": [
+            {
+              "cargoInstanceId": "FRAME-F-01",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                0,
+                0,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 0
+            },
+            {
+              "cargoInstanceId": "FRAME-F-02",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                2400,
+                0,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 1
+            },
+            {
+              "cargoInstanceId": "FRAME-F-03",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                4800,
+                0,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 2
+            },
+            {
+              "cargoInstanceId": "FRAME-F-04",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                4800,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 3
+            },
+            {
+              "cargoInstanceId": "FRAME-F-05",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                2400,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 4
+            },
+            {
+              "cargoInstanceId": "BOX-B-01",
+              "sourceId": "BOX-B",
+              "name": "轻型周转箱",
+              "positionMm": [
+                7200,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                1600,
+                1100,
+                1400
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 150,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 500,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 5
+            },
+            {
+              "cargoInstanceId": "BOX-B-02",
+              "sourceId": "BOX-B",
+              "name": "轻型周转箱",
+              "positionMm": [
+                8800,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                1600,
+                1100,
+                1400
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 150,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 500,
+              "supportRatio": 1,
+              "topLoadKg": 220,
+              "step": 6
+            },
+            {
+              "cargoInstanceId": "BOX-B-03",
+              "sourceId": "BOX-B",
+              "name": "轻型周转箱",
+              "positionMm": [
+                10400,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                1600,
+                1100,
+                1400
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 150,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 500,
+              "supportRatio": 1,
+              "topLoadKg": 220,
+              "step": 7
+            },
+            {
+              "cargoInstanceId": "BOX-B-04",
+              "sourceId": "BOX-B",
+              "name": "轻型周转箱",
+              "positionMm": [
+                7200,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1600,
+                1100,
+                1400
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 150,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 500,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 8
+            },
+            {
+              "cargoInstanceId": "BOX-B-05",
+              "sourceId": "BOX-B",
+              "name": "轻型周转箱",
+              "positionMm": [
+                8800,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1600,
+                1100,
+                1400
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 150,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 500,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 9
+            },
+            {
+              "cargoInstanceId": "BOX-B-06",
+              "sourceId": "BOX-B",
+              "name": "轻型周转箱",
+              "positionMm": [
+                10400,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1600,
+                1100,
+                1400
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 150,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 500,
+              "supportRatio": 1,
+              "topLoadKg": 145,
+              "step": 10
+            },
+            {
+              "cargoInstanceId": "RACK-C-01",
+              "sourceId": "RACK-C",
+              "name": "立式设备箱",
+              "positionMm": [
+                0,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1000,
+                2000
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 220,
+              "stopOrder": 2,
+              "stackable": false,
+              "maxTopLoadKg": 0,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 11
+            },
+            {
+              "cargoInstanceId": "RACK-C-02",
+              "sourceId": "RACK-C",
+              "name": "立式设备箱",
+              "positionMm": [
+                1000,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1000,
+                2000
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 220,
+              "stopOrder": 2,
+              "stackable": false,
+              "maxTopLoadKg": 0,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 12
+            },
+            {
+              "cargoInstanceId": "CASE-E-01",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                10400,
+                1100,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 13
+            },
+            {
+              "cargoInstanceId": "CASE-E-02",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                11200,
+                1100,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 14
+            },
+            {
+              "cargoInstanceId": "CASE-E-03",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                11200,
+                1700,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 0.8333333333333334,
+              "topLoadKg": 0,
+              "step": 15
+            },
+            {
+              "cargoInstanceId": "CASE-E-04",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                10400,
+                1700,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 0.8333333333333334,
+              "topLoadKg": 0,
+              "step": 16
+            },
+            {
+              "cargoInstanceId": "CASE-E-05",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                10400,
+                0,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 17
+            },
+            {
+              "cargoInstanceId": "CASE-E-06",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                11200,
+                0,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 18
+            },
+            {
+              "cargoInstanceId": "CASE-E-07",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                8800,
+                1100,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 19
+            },
+            {
+              "cargoInstanceId": "CASE-E-08",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                9600,
+                1100,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 20
+            },
+            {
+              "cargoInstanceId": "CASE-E-09",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                9600,
+                1700,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 0.8333333333333334,
+              "topLoadKg": 0,
+              "step": 21
+            },
+            {
+              "cargoInstanceId": "CASE-E-10",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                8800,
+                1700,
+                1400
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 0.8333333333333334,
+              "topLoadKg": 0,
+              "step": 22
+            },
+            {
+              "cargoInstanceId": "BOX-I-01",
+              "sourceId": "BOX-I",
+              "name": "文件与备件箱",
+              "positionMm": [
+                11200,
+                600,
+                1400
+              ],
+              "sizeMm": [
+                600,
+                400,
+                600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 35,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 120,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 23
+            },
+            {
+              "cargoInstanceId": "BOX-I-02",
+              "sourceId": "BOX-I",
+              "name": "文件与备件箱",
+              "positionMm": [
+                2000,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                400,
+                600,
+                600
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 35,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 120,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 24
+            },
+            {
+              "cargoInstanceId": "BOX-I-03",
+              "sourceId": "BOX-I",
+              "name": "文件与备件箱",
+              "positionMm": [
+                2000,
+                1700,
+                0
+              ],
+              "sizeMm": [
+                400,
+                600,
+                600
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 35,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 120,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 25
+            }
+          ],
+          "unloadedCargoIds": [
+            "PAL-A-01",
+            "PAL-A-02",
+            "PAL-A-03",
+            "PAL-A-04",
+            "PAL-A-05",
+            "PAL-A-06",
+            "PAL-A-07",
+            "PAL-A-08",
+            "RACK-C-03",
+            "RACK-C-04",
+            "RACK-C-05",
+            "DENSE-D-01",
+            "DENSE-D-02",
+            "DENSE-D-03",
+            "DENSE-D-04",
+            "PAL-G-01",
+            "PAL-G-02",
+            "PAL-G-03",
+            "PAL-G-04",
+            "PAL-G-05",
+            "PAL-G-06",
+            "MACHINE-H-01",
+            "MACHINE-H-02",
+            "MACHINE-H-03"
+          ],
+          "metrics": {
+            "volumeUtilization": 0.5723011212907477,
+            "weightUtilization": 0.14132075471698113,
+            "loadedVolumeM3": 43.696,
+            "loadedWeightKg": 3745,
+            "centerOfGravity": [
+              6030.574098798398,
+              1162.7503337783712,
+              938.0507343124166
+            ],
+            "supportScore": 0.9743589743589743,
+            "routeScore": 0.7701386047463176,
+            "maxFloorLoadKgM2": 220,
+            "loadedCount": 26,
+            "totalCount": 50
+          },
+          "score": 0.6395653679149482,
+          "seed": 20260831,
+          "warnings": [
+            "24 件货物未装载"
+          ]
+        },
+        "elapsedMs": 1188
+      }
+    ],
+    "weight": [
+      {
+        "type": "best",
+        "strategy": "weight",
+        "iteration": 0,
+        "solution": {
+          "strategy": "weight",
+          "placements": [
+            {
+              "cargoInstanceId": "MACHINE-H-01",
+              "sourceId": "MACHINE-H",
+              "name": "重型机组箱",
+              "positionMm": [
+                0,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1200,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 2500,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1500,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 0
+            },
+            {
+              "cargoInstanceId": "MACHINE-H-02",
+              "sourceId": "MACHINE-H",
+              "name": "重型机组箱",
+              "positionMm": [
+                0,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                1200,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 2500,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1500,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 1
+            },
+            {
+              "cargoInstanceId": "MACHINE-H-03",
+              "sourceId": "MACHINE-H",
+              "name": "重型机组箱",
+              "positionMm": [
+                1000,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1200,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 2500,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1500,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 2
+            },
+            {
+              "cargoInstanceId": "DENSE-D-01",
+              "sourceId": "DENSE-D",
+              "name": "工业电机托盘",
+              "positionMm": [
+                1200,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1800,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1400,
+              "supportRatio": 1,
+              "topLoadKg": 1300,
+              "step": 3
+            },
+            {
+              "cargoInstanceId": "DENSE-D-02",
+              "sourceId": "DENSE-D",
+              "name": "工业电机托盘",
+              "positionMm": [
+                2000,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1800,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1400,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 4
+            },
+            {
+              "cargoInstanceId": "DENSE-D-03",
+              "sourceId": "DENSE-D",
+              "name": "工业电机托盘",
+              "positionMm": [
+                2000,
+                0,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1800,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1400,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 5
+            },
+            {
+              "cargoInstanceId": "DENSE-D-04",
+              "sourceId": "DENSE-D",
+              "name": "工业电机托盘",
+              "positionMm": [
+                2800,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1800,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1400,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 6
+            },
+            {
+              "cargoInstanceId": "PAL-A-01",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                2800,
+                0,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 7
+            },
+            {
+              "cargoInstanceId": "PAL-A-02",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                3600,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 8
+            },
+            {
+              "cargoInstanceId": "PAL-A-03",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                3600,
+                0,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 9
+            },
+            {
+              "cargoInstanceId": "PAL-A-04",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                4400,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 10
+            },
+            {
+              "cargoInstanceId": "PAL-A-05",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                4400,
+                0,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 11
+            },
+            {
+              "cargoInstanceId": "PAL-A-06",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                5200,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 12
+            },
+            {
+              "cargoInstanceId": "PAL-A-07",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                5200,
+                0,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 13
+            },
+            {
+              "cargoInstanceId": "PAL-A-08",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                1200,
+                1200,
+                700
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 14
+            },
+            {
+              "cargoInstanceId": "PAL-G-01",
+              "sourceId": "PAL-G",
+              "name": "中型混装托盘",
+              "positionMm": [
+                6000,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1200,
+                1300
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 520,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 600,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 15
+            },
+            {
+              "cargoInstanceId": "PAL-G-02",
+              "sourceId": "PAL-G",
+              "name": "中型混装托盘",
+              "positionMm": [
+                6000,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                1200,
+                1000,
+                1300
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 520,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 600,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 16
+            },
+            {
+              "cargoInstanceId": "FRAME-F-01",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                7000,
+                0,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 17
+            }
+          ],
+          "unloadedCargoIds": [
+            "BOX-B-01",
+            "BOX-B-02",
+            "BOX-B-03",
+            "BOX-B-04",
+            "BOX-B-05",
+            "BOX-B-06",
+            "RACK-C-01",
+            "RACK-C-02",
+            "RACK-C-03",
+            "RACK-C-04",
+            "RACK-C-05",
+            "CASE-E-01",
+            "CASE-E-02",
+            "CASE-E-03",
+            "CASE-E-04",
+            "CASE-E-05",
+            "CASE-E-06",
+            "CASE-E-07",
+            "CASE-E-08",
+            "CASE-E-09",
+            "CASE-E-10",
+            "FRAME-F-02",
+            "FRAME-F-03",
+            "FRAME-F-04",
+            "FRAME-F-05",
+            "PAL-G-03",
+            "PAL-G-04",
+            "PAL-G-05",
+            "PAL-G-06",
+            "BOX-I-01",
+            "BOX-I-02",
+            "BOX-I-03"
+          ],
+          "metrics": {
+            "volumeUtilization": 0.24340086136184677,
+            "weightUtilization": 0.9996226415094339,
+            "loadedVolumeM3": 18.584,
+            "loadedWeightKg": 26490,
+            "centerOfGravity": [
+              2912.1177802944508,
+              1138.486221215553,
+              469.6489241223103
+            ],
+            "supportScore": 1,
+            "routeScore": 0.773511377068558,
+            "maxFloorLoadKgM2": 3875,
+            "loadedCount": 18,
+            "totalCount": 50
+          },
+          "score": 1.057356660984472,
+          "seed": 20260831,
+          "warnings": [
+            "32 件货物未装载",
+            "整体重心偏离建议安全区"
+          ]
+        },
+        "elapsedMs": 0
+      },
+      {
+        "type": "scan",
+        "strategy": "weight",
+        "iteration": 6,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "PAL-A-06",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            4400,
+            0,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 11
+        },
+        "elapsedMs": 132
+      },
+      {
+        "type": "scan",
+        "strategy": "weight",
+        "iteration": 12,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "PAL-A-06",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            4400,
+            0,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 11
+        },
+        "elapsedMs": 264
+      },
+      {
+        "type": "scan",
+        "strategy": "weight",
+        "iteration": 18,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "PAL-A-04",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            4400,
+            0,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 11
+        },
+        "elapsedMs": 396
+      },
+      {
+        "type": "scan",
+        "strategy": "weight",
+        "iteration": 24,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "PAL-A-03",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            4400,
+            0,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 11
+        },
+        "elapsedMs": 528
+      },
+      {
+        "type": "scan",
+        "strategy": "weight",
+        "iteration": 30,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "PAL-A-08",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            4400,
+            0,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 11
+        },
+        "elapsedMs": 660
+      },
+      {
+        "type": "scan",
+        "strategy": "weight",
+        "iteration": 36,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "PAL-A-05",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            4400,
+            0,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 11
+        },
+        "elapsedMs": 792
+      },
+      {
+        "type": "scan",
+        "strategy": "weight",
+        "iteration": 42,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "PAL-A-03",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            4400,
+            0,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 11
+        },
+        "elapsedMs": 924
+      },
+      {
+        "type": "scan",
+        "strategy": "weight",
+        "iteration": 48,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "PAL-A-08",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            4400,
+            0,
+            0
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 11
+        },
+        "elapsedMs": 1056
+      },
+      {
+        "type": "complete",
+        "strategy": "weight",
+        "solution": {
+          "strategy": "weight",
+          "placements": [
+            {
+              "cargoInstanceId": "MACHINE-H-01",
+              "sourceId": "MACHINE-H",
+              "name": "重型机组箱",
+              "positionMm": [
+                0,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1200,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 2500,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1500,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 0
+            },
+            {
+              "cargoInstanceId": "MACHINE-H-02",
+              "sourceId": "MACHINE-H",
+              "name": "重型机组箱",
+              "positionMm": [
+                0,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                1200,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 2500,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1500,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 1
+            },
+            {
+              "cargoInstanceId": "MACHINE-H-03",
+              "sourceId": "MACHINE-H",
+              "name": "重型机组箱",
+              "positionMm": [
+                1000,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1200,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 2500,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1500,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 2
+            },
+            {
+              "cargoInstanceId": "DENSE-D-01",
+              "sourceId": "DENSE-D",
+              "name": "工业电机托盘",
+              "positionMm": [
+                1200,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1800,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1400,
+              "supportRatio": 1,
+              "topLoadKg": 1300,
+              "step": 3
+            },
+            {
+              "cargoInstanceId": "DENSE-D-02",
+              "sourceId": "DENSE-D",
+              "name": "工业电机托盘",
+              "positionMm": [
+                2000,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1800,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1400,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 4
+            },
+            {
+              "cargoInstanceId": "DENSE-D-03",
+              "sourceId": "DENSE-D",
+              "name": "工业电机托盘",
+              "positionMm": [
+                2000,
+                0,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1800,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1400,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 5
+            },
+            {
+              "cargoInstanceId": "DENSE-D-04",
+              "sourceId": "DENSE-D",
+              "name": "工业电机托盘",
+              "positionMm": [
+                2800,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1800,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1400,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 6
+            },
+            {
+              "cargoInstanceId": "PAL-A-01",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                2800,
+                0,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 7
+            },
+            {
+              "cargoInstanceId": "PAL-A-02",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                3600,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 8
+            },
+            {
+              "cargoInstanceId": "PAL-A-03",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                3600,
+                0,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 9
+            },
+            {
+              "cargoInstanceId": "PAL-A-04",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                4400,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 10
+            },
+            {
+              "cargoInstanceId": "PAL-A-05",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                4400,
+                0,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 11
+            },
+            {
+              "cargoInstanceId": "PAL-A-06",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                5200,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 12
+            },
+            {
+              "cargoInstanceId": "PAL-A-07",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                5200,
+                0,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 13
+            },
+            {
+              "cargoInstanceId": "PAL-A-08",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                1200,
+                1200,
+                700
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 14
+            },
+            {
+              "cargoInstanceId": "PAL-G-01",
+              "sourceId": "PAL-G",
+              "name": "中型混装托盘",
+              "positionMm": [
+                6000,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1200,
+                1300
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 520,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 600,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 15
+            },
+            {
+              "cargoInstanceId": "PAL-G-02",
+              "sourceId": "PAL-G",
+              "name": "中型混装托盘",
+              "positionMm": [
+                6000,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                1200,
+                1000,
+                1300
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 520,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 600,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 16
+            },
+            {
+              "cargoInstanceId": "FRAME-F-01",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                7000,
+                0,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 17
+            }
+          ],
+          "unloadedCargoIds": [
+            "BOX-B-01",
+            "BOX-B-02",
+            "BOX-B-03",
+            "BOX-B-04",
+            "BOX-B-05",
+            "BOX-B-06",
+            "RACK-C-01",
+            "RACK-C-02",
+            "RACK-C-03",
+            "RACK-C-04",
+            "RACK-C-05",
+            "CASE-E-01",
+            "CASE-E-02",
+            "CASE-E-03",
+            "CASE-E-04",
+            "CASE-E-05",
+            "CASE-E-06",
+            "CASE-E-07",
+            "CASE-E-08",
+            "CASE-E-09",
+            "CASE-E-10",
+            "FRAME-F-02",
+            "FRAME-F-03",
+            "FRAME-F-04",
+            "FRAME-F-05",
+            "PAL-G-03",
+            "PAL-G-04",
+            "PAL-G-05",
+            "PAL-G-06",
+            "BOX-I-01",
+            "BOX-I-02",
+            "BOX-I-03"
+          ],
+          "metrics": {
+            "volumeUtilization": 0.24340086136184677,
+            "weightUtilization": 0.9996226415094339,
+            "loadedVolumeM3": 18.584,
+            "loadedWeightKg": 26490,
+            "centerOfGravity": [
+              2912.1177802944508,
+              1138.486221215553,
+              469.6489241223103
+            ],
+            "supportScore": 1,
+            "routeScore": 0.773511377068558,
+            "maxFloorLoadKgM2": 3875,
+            "loadedCount": 18,
+            "totalCount": 50
+          },
+          "score": 1.057356660984472,
+          "seed": 20260831,
+          "warnings": [
+            "32 件货物未装载",
+            "整体重心偏离建议安全区"
+          ]
+        },
+        "elapsedMs": 1188
+      }
+    ],
+    "balanced": [
+      {
+        "type": "best",
+        "strategy": "balanced",
+        "iteration": 0,
+        "solution": {
+          "strategy": "balanced",
+          "placements": [
+            {
+              "cargoInstanceId": "MACHINE-H-01",
+              "sourceId": "MACHINE-H",
+              "name": "重型机组箱",
+              "positionMm": [
+                0,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1200,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 2500,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1500,
+              "supportRatio": 1,
+              "topLoadKg": 1300,
+              "step": 0
+            },
+            {
+              "cargoInstanceId": "MACHINE-H-02",
+              "sourceId": "MACHINE-H",
+              "name": "重型机组箱",
+              "positionMm": [
+                0,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                1200,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 2500,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1500,
+              "supportRatio": 1,
+              "topLoadKg": 1300,
+              "step": 1
+            },
+            {
+              "cargoInstanceId": "MACHINE-H-03",
+              "sourceId": "MACHINE-H",
+              "name": "重型机组箱",
+              "positionMm": [
+                1000,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1200,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 2500,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1500,
+              "supportRatio": 1,
+              "topLoadKg": 1300,
+              "step": 2
+            },
+            {
+              "cargoInstanceId": "FRAME-F-01",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                2000,
+                0,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 3
+            },
+            {
+              "cargoInstanceId": "FRAME-F-02",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                4400,
+                0,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 4
+            },
+            {
+              "cargoInstanceId": "FRAME-F-03",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                4400,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 5
+            },
+            {
+              "cargoInstanceId": "FRAME-F-04",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                6800,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 6
+            },
+            {
+              "cargoInstanceId": "FRAME-F-05",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                6800,
+                0,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 7
+            },
+            {
+              "cargoInstanceId": "DENSE-D-01",
+              "sourceId": "DENSE-D",
+              "name": "工业电机托盘",
+              "positionMm": [
+                1200,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1800,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1400,
+              "supportRatio": 1,
+              "topLoadKg": 1300,
+              "step": 8
+            },
+            {
+              "cargoInstanceId": "DENSE-D-02",
+              "sourceId": "DENSE-D",
+              "name": "工业电机托盘",
+              "positionMm": [
+                2000,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1800,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1400,
+              "supportRatio": 1,
+              "topLoadKg": 1300,
+              "step": 9
+            },
+            {
+              "cargoInstanceId": "DENSE-D-03",
+              "sourceId": "DENSE-D",
+              "name": "工业电机托盘",
+              "positionMm": [
+                2800,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1800,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1400,
+              "supportRatio": 1,
+              "topLoadKg": 1300,
+              "step": 10
+            },
+            {
+              "cargoInstanceId": "DENSE-D-04",
+              "sourceId": "DENSE-D",
+              "name": "工业电机托盘",
+              "positionMm": [
+                3600,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1800,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1400,
+              "supportRatio": 1,
+              "topLoadKg": 1300,
+              "step": 11
+            },
+            {
+              "cargoInstanceId": "PAL-A-01",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                1200,
+                1200,
+                700
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 12
+            },
+            {
+              "cargoInstanceId": "PAL-A-02",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                0,
+                1200,
+                900
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 13
+            },
+            {
+              "cargoInstanceId": "PAL-A-03",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                0,
+                0,
+                900
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 14
+            },
+            {
+              "cargoInstanceId": "PAL-A-04",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                2000,
+                1100,
+                700
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 15
+            },
+            {
+              "cargoInstanceId": "PAL-A-05",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                1000,
+                0,
+                900
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 16
+            },
+            {
+              "cargoInstanceId": "PAL-A-06",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                2800,
+                1100,
+                700
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 17
+            },
+            {
+              "cargoInstanceId": "PAL-A-07",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                3600,
+                1100,
+                700
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 18
+            },
+            {
+              "cargoInstanceId": "PAL-G-01",
+              "sourceId": "PAL-G",
+              "name": "中型混装托盘",
+              "positionMm": [
+                9200,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1200,
+                1300
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 520,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 600,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 19
+            },
+            {
+              "cargoInstanceId": "RACK-C-01",
+              "sourceId": "RACK-C",
+              "name": "立式设备箱",
+              "positionMm": [
+                9200,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1000,
+                2000
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 220,
+              "stopOrder": 2,
+              "stackable": false,
+              "maxTopLoadKg": 0,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 20
+            },
+            {
+              "cargoInstanceId": "BOX-B-01",
+              "sourceId": "BOX-B",
+              "name": "轻型周转箱",
+              "positionMm": [
+                10200,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                1600,
+                1100,
+                1400
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 150,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 500,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 21
+            },
+            {
+              "cargoInstanceId": "CASE-E-01",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                10200,
+                0,
+                0
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 22
+            }
+          ],
+          "unloadedCargoIds": [
+            "PAL-A-08",
+            "BOX-B-02",
+            "BOX-B-03",
+            "BOX-B-04",
+            "BOX-B-05",
+            "BOX-B-06",
+            "RACK-C-02",
+            "RACK-C-03",
+            "RACK-C-04",
+            "RACK-C-05",
+            "CASE-E-02",
+            "CASE-E-03",
+            "CASE-E-04",
+            "CASE-E-05",
+            "CASE-E-06",
+            "CASE-E-07",
+            "CASE-E-08",
+            "CASE-E-09",
+            "CASE-E-10",
+            "PAL-G-02",
+            "PAL-G-03",
+            "PAL-G-04",
+            "PAL-G-05",
+            "PAL-G-06",
+            "BOX-I-01",
+            "BOX-I-02",
+            "BOX-I-03"
+          ],
+          "metrics": {
+            "volumeUtilization": 0.49769870489400436,
+            "weightUtilization": 0.999811320754717,
+            "loadedVolumeM3": 38,
+            "loadedWeightKg": 26495,
+            "centerOfGravity": [
+              2420.4944329118703,
+              1279.5055670881297,
+              725.5048122287224
+            ],
+            "supportScore": 1,
+            "routeScore": 0.8386621184088806,
+            "maxFloorLoadKgM2": 3875,
+            "loadedCount": 23,
+            "totalCount": 50
+          },
+          "score": 0.721329669247809,
+          "seed": 20260831,
+          "warnings": [
+            "27 件货物未装载",
+            "整体重心偏离建议安全区"
+          ]
+        },
+        "elapsedMs": 0
+      },
+      {
+        "type": "scan",
+        "strategy": "balanced",
+        "iteration": 6,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "PAL-A-04",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            0,
+            0,
+            900
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 14
+        },
+        "elapsedMs": 132
+      },
+      {
+        "type": "scan",
+        "strategy": "balanced",
+        "iteration": 12,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "PAL-A-01",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            0,
+            0,
+            900
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 14
+        },
+        "elapsedMs": 264
+      },
+      {
+        "type": "scan",
+        "strategy": "balanced",
+        "iteration": 18,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "PAL-A-01",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            0,
+            0,
+            900
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 14
+        },
+        "elapsedMs": 396
+      },
+      {
+        "type": "scan",
+        "strategy": "balanced",
+        "iteration": 24,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "PAL-A-01",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            0,
+            0,
+            900
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 14
+        },
+        "elapsedMs": 528
+      },
+      {
+        "type": "scan",
+        "strategy": "balanced",
+        "iteration": 30,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "PAL-A-08",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            0,
+            0,
+            900
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 14
+        },
+        "elapsedMs": 660
+      },
+      {
+        "type": "scan",
+        "strategy": "balanced",
+        "iteration": 36,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "PAL-A-04",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            0,
+            0,
+            900
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 14
+        },
+        "elapsedMs": 792
+      },
+      {
+        "type": "scan",
+        "strategy": "balanced",
+        "iteration": 42,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "PAL-A-02",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            0,
+            0,
+            900
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 14
+        },
+        "elapsedMs": 924
+      },
+      {
+        "type": "scan",
+        "strategy": "balanced",
+        "iteration": 48,
+        "totalIterations": 54,
+        "candidate": {
+          "cargoInstanceId": "PAL-A-04",
+          "sourceId": "PAL-A",
+          "name": "高密度配件托盘",
+          "positionMm": [
+            0,
+            0,
+            900
+          ],
+          "sizeMm": [
+            800,
+            1000,
+            900
+          ],
+          "rotation": [
+            0,
+            0,
+            90
+          ],
+          "weightKg": 1300,
+          "stopOrder": 3,
+          "stackable": true,
+          "maxTopLoadKg": 1000,
+          "supportRatio": 1,
+          "topLoadKg": 0,
+          "step": 14
+        },
+        "elapsedMs": 1056
+      },
+      {
+        "type": "complete",
+        "strategy": "balanced",
+        "solution": {
+          "strategy": "balanced",
+          "placements": [
+            {
+              "cargoInstanceId": "MACHINE-H-01",
+              "sourceId": "MACHINE-H",
+              "name": "重型机组箱",
+              "positionMm": [
+                0,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1200,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 2500,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1500,
+              "supportRatio": 1,
+              "topLoadKg": 1300,
+              "step": 0
+            },
+            {
+              "cargoInstanceId": "MACHINE-H-02",
+              "sourceId": "MACHINE-H",
+              "name": "重型机组箱",
+              "positionMm": [
+                0,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                1200,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 2500,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1500,
+              "supportRatio": 1,
+              "topLoadKg": 1300,
+              "step": 1
+            },
+            {
+              "cargoInstanceId": "MACHINE-H-03",
+              "sourceId": "MACHINE-H",
+              "name": "重型机组箱",
+              "positionMm": [
+                1000,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1200,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 2500,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1500,
+              "supportRatio": 1,
+              "topLoadKg": 1300,
+              "step": 2
+            },
+            {
+              "cargoInstanceId": "FRAME-F-01",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                2000,
+                0,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 3
+            },
+            {
+              "cargoInstanceId": "FRAME-F-02",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                4400,
+                0,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 4
+            },
+            {
+              "cargoInstanceId": "FRAME-F-03",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                4400,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 5
+            },
+            {
+              "cargoInstanceId": "FRAME-F-04",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                6800,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 6
+            },
+            {
+              "cargoInstanceId": "FRAME-F-05",
+              "sourceId": "FRAME-F",
+              "name": "大型框架包装",
+              "positionMm": [
+                6800,
+                0,
+                0
+              ],
+              "sizeMm": [
+                2400,
+                1100,
+                1600
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 350,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 350,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 7
+            },
+            {
+              "cargoInstanceId": "DENSE-D-01",
+              "sourceId": "DENSE-D",
+              "name": "工业电机托盘",
+              "positionMm": [
+                1200,
+                1200,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1800,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1400,
+              "supportRatio": 1,
+              "topLoadKg": 1300,
+              "step": 8
+            },
+            {
+              "cargoInstanceId": "DENSE-D-02",
+              "sourceId": "DENSE-D",
+              "name": "工业电机托盘",
+              "positionMm": [
+                2000,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1800,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1400,
+              "supportRatio": 1,
+              "topLoadKg": 1300,
+              "step": 9
+            },
+            {
+              "cargoInstanceId": "DENSE-D-03",
+              "sourceId": "DENSE-D",
+              "name": "工业电机托盘",
+              "positionMm": [
+                2800,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1800,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1400,
+              "supportRatio": 1,
+              "topLoadKg": 1300,
+              "step": 10
+            },
+            {
+              "cargoInstanceId": "DENSE-D-04",
+              "sourceId": "DENSE-D",
+              "name": "工业电机托盘",
+              "positionMm": [
+                3600,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1800,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1400,
+              "supportRatio": 1,
+              "topLoadKg": 1300,
+              "step": 11
+            },
+            {
+              "cargoInstanceId": "PAL-A-01",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                1200,
+                1200,
+                700
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 12
+            },
+            {
+              "cargoInstanceId": "PAL-A-02",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                0,
+                1200,
+                900
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 13
+            },
+            {
+              "cargoInstanceId": "PAL-A-03",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                0,
+                0,
+                900
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 14
+            },
+            {
+              "cargoInstanceId": "PAL-A-04",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                2000,
+                1100,
+                700
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 15
+            },
+            {
+              "cargoInstanceId": "PAL-A-05",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                1000,
+                0,
+                900
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 16
+            },
+            {
+              "cargoInstanceId": "PAL-A-06",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                2800,
+                1100,
+                700
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 17
+            },
+            {
+              "cargoInstanceId": "PAL-A-07",
+              "sourceId": "PAL-A",
+              "name": "高密度配件托盘",
+              "positionMm": [
+                3600,
+                1100,
+                700
+              ],
+              "sizeMm": [
+                800,
+                1000,
+                900
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 1300,
+              "stopOrder": 3,
+              "stackable": true,
+              "maxTopLoadKg": 1000,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 18
+            },
+            {
+              "cargoInstanceId": "PAL-G-01",
+              "sourceId": "PAL-G",
+              "name": "中型混装托盘",
+              "positionMm": [
+                9200,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1200,
+                1300
+              ],
+              "rotation": [
+                0,
+                0,
+                90
+              ],
+              "weightKg": 520,
+              "stopOrder": 2,
+              "stackable": true,
+              "maxTopLoadKg": 600,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 19
+            },
+            {
+              "cargoInstanceId": "RACK-C-01",
+              "sourceId": "RACK-C",
+              "name": "立式设备箱",
+              "positionMm": [
+                9200,
+                0,
+                0
+              ],
+              "sizeMm": [
+                1000,
+                1000,
+                2000
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 220,
+              "stopOrder": 2,
+              "stackable": false,
+              "maxTopLoadKg": 0,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 20
+            },
+            {
+              "cargoInstanceId": "BOX-B-01",
+              "sourceId": "BOX-B",
+              "name": "轻型周转箱",
+              "positionMm": [
+                10200,
+                1100,
+                0
+              ],
+              "sizeMm": [
+                1600,
+                1100,
+                1400
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 150,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 500,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 21
+            },
+            {
+              "cargoInstanceId": "CASE-E-01",
+              "sourceId": "CASE-E",
+              "name": "精密零件箱",
+              "positionMm": [
+                10200,
+                0,
+                0
+              ],
+              "sizeMm": [
+                800,
+                600,
+                700
+              ],
+              "rotation": [
+                0,
+                0,
+                0
+              ],
+              "weightKg": 55,
+              "stopOrder": 1,
+              "stackable": true,
+              "maxTopLoadKg": 250,
+              "supportRatio": 1,
+              "topLoadKg": 0,
+              "step": 22
+            }
+          ],
+          "unloadedCargoIds": [
+            "PAL-A-08",
+            "BOX-B-02",
+            "BOX-B-03",
+            "BOX-B-04",
+            "BOX-B-05",
+            "BOX-B-06",
+            "RACK-C-02",
+            "RACK-C-03",
+            "RACK-C-04",
+            "RACK-C-05",
+            "CASE-E-02",
+            "CASE-E-03",
+            "CASE-E-04",
+            "CASE-E-05",
+            "CASE-E-06",
+            "CASE-E-07",
+            "CASE-E-08",
+            "CASE-E-09",
+            "CASE-E-10",
+            "PAL-G-02",
+            "PAL-G-03",
+            "PAL-G-04",
+            "PAL-G-05",
+            "PAL-G-06",
+            "BOX-I-01",
+            "BOX-I-02",
+            "BOX-I-03"
+          ],
+          "metrics": {
+            "volumeUtilization": 0.49769870489400436,
+            "weightUtilization": 0.999811320754717,
+            "loadedVolumeM3": 38,
+            "loadedWeightKg": 26495,
+            "centerOfGravity": [
+              2420.4944329118703,
+              1279.5055670881297,
+              725.5048122287224
+            ],
+            "supportScore": 1,
+            "routeScore": 0.8386621184088806,
+            "maxFloorLoadKgM2": 3875,
+            "loadedCount": 23,
+            "totalCount": 50
+          },
+          "score": 0.721329669247809,
+          "seed": 20260831,
+          "warnings": [
+            "27 件货物未装载",
+            "整体重心偏离建议安全区"
+          ]
+        },
+        "elapsedMs": 1188
+      }
+    ]
+  }
+}
